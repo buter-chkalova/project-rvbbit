@@ -10,7 +10,7 @@
 
 This project illustrates:
 - Direct Kernel Object Manipulation (DKOM) to hide processes, files, and network connections.
-- System call hooking (`sys_kill`, `sys_getdents64`, `sys_openat`) without modifying the syscall table.
+- System call hooking (`sys_kill`, `sys_getdents64`, `sys_openat`) by directly modifying the syscall table (bypassing write protection via `write_cr0`).
 - Bypassing eBPF‑based detection tools.
 - Masking as a legitimate ACPI kernel driver.
 - Persistence mechanisms via `systemd` and `modules-load.d`.
