@@ -154,7 +154,7 @@ Rather than simply asking how something can be hidden, the project increasingly 
 
 ---
 
-## Independent research coverage
+## Independent research coverage and external visibility
 
 One of the unexpected outcomes of publishing RVBBIT was seeing other cybersecurity researchers examine the project independently.
 
@@ -174,7 +174,27 @@ RVBBIT was later independently analyzed by a Chinese author on **CSDN**:
 
 The article provides a separate technical walkthrough of the project and discusses its kernel-level concealment mechanisms, persistence behavior, observability implications, and possible defensive considerations.
 
-Seeing the project independently examined outside its original language and community was one of the reasons I decided to continue developing RVBBIT as a broader security research project rather than simply adding more rootkit functionality.
+Seeing the project independently analyzed by Hackplayers and CSDN outside its original language and community was one of the reasons I decided to continue developing RVBBIT as a broader security research project rather than simply adding more rootkit functionality.
+
+### LinkedIn — Community sharing
+
+Project RVBBIT was also independently shared on LinkedIn by Yavor Tsakov through a direct link to the repository:
+
+[Project RVBBIT — LinkedIn post by Yavor Tsakov](https://www.linkedin.com/posts/yavor-tsakov-807b16243_github-buter-chkalovaproject-rvbbit-linux-activity-7449048505547096064-Osin)
+
+This is not a technical analysis of the project, but it is an example of the research being circulated independently outside the project's own publication channels.
+
+### RVBBIT Arsenal — Security indexing
+
+The broader RVBBIT research also began appearing in specialized cybersecurity indexing services through RVBBIT Arsenal.
+
+[Vulners — RVBBIT Arsenal](https://vulners.com/kitploit/KITPLOIT%3ATOOLS-GITHUB-BUTER-CHKALOVA-RVBBIT-ARSENAL)
+
+[Sploitus — RVBBIT Arsenal](https://sploitus.com/exploit?id=KITPLOIT%3ATOOLS-GITHUB-BUTER-CHKALOVA-RVBBIT-ARSENAL)
+
+The entries are related to a KitPloit-originated record and should be understood as external security indexing rather than independent technical reviews.
+
+Some third-party indexes may preserve older descriptions or snapshots of RVBBIT Arsenal. Those descriptions may refer to functionality that is no longer present in the current public repository. The current repository and its documentation should be treated as the authoritative description of the project's present capabilities.
 
 ---
 
